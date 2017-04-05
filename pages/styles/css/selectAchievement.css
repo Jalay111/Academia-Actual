@@ -1,0 +1,422 @@
+#add_achievement{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  margin-top: 25px;
+  background: white;
+  overflow-y: auto;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#add_achievement > #encabezado_add_achievement{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: yellowgreen;
+}
+
+#add_achievement > #encabezado_add_achievement > #Title_achievement{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5%;
+  color: white;
+  font-family: NotoSans;
+  font-size: 30px;
+}
+
+#add_achievement input, #add_achievement p{
+  position: absolute;
+  width: 35%;
+  margin-left: 16%;
+  font-size: 20px;
+  font-family: NotoSans;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #bbbbbb;
+  border-bottom-width: 1px;
+  background: none;
+  transition: all 0.1s;
+}
+
+#add_achievement #Area{
+  width: 32%;
+  margin-top: 160px;
+}
+
+#add_achievement #Porcent{
+  width: 8%;
+  margin-top: 160px;
+  margin-left: 52%;
+}
+
+#add_achievement input#Principal, #add_achievement input#Secundaria{
+  width: auto;
+  margin-top: 160px;
+  margin-left: 64%;
+  font-size: 20px;
+  font-family: NotoSans;
+}
+
+#add_achievement span#Principal, #add_achievement span#Secundaria{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 66%;
+  font-size: 20px;
+  font-family: NotoSans;
+}
+
+#add_achievement input#Secundaria{
+  margin-left: 78%;
+}
+
+#add_achievement span#Secundaria{
+  margin-left: 80%;
+}
+
+#add_achievement #Docente{
+  margin-top: 260px;
+}
+
+#add_achievement #Curso{
+  margin-top: 360px;
+}
+
+#add_achievement > #Area:hover{
+  border-bottom-color: black;
+}
+
+#add_achievement #Area:focus{
+  border-bottom-width: 2px;
+  border-bottom-color: #FF5D00;
+  box-shadow: none;
+  outline: none;
+}
+
+#add_achievement p{
+  font-size: 13px;
+  transform: translate(0px, -30px);
+  color: #666666;
+  transition: all 0.1s;
+}
+
+#add_achievement #see_teaching, #add_achievement #see_course{
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 52%;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  transition: all 0.1s;
+}
+
+#add_achievement #see_course{
+  margin-top: 360px;
+}
+
+#add_achievement #see_teaching:hover, #add_achievement #see_course:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#add_achievement #save{
+  background: yellowgreen;
+  padding: 4px 9px 0px 9px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 75%;
+  text-decoration: none;
+  font-size: 70px;
+  color: white;
+  transition: all 0.1s;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#add_achievement #save:hover{
+  background: #dddddd;
+  color: green;
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+}
+
+#add_achievement > #encabezado_add_achievement > a#cerrar_add_achievement{
+  position: fixed;
+  font-size: 40px;
+  margin-left: 66.5%;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s;
+  z-index: 1;
+}
+
+#add_achievement > #encabezado_add_achievement #cerrar_add_achievement:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
+
+/*Docente -------------------------------------------------------------- Docente*/
+div#black_add_one{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  margin-top: 25px;
+  background: rgba(0,0,0,0.4);
+}
+
+#teachers_achievement{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+  margin-top: 50px;
+  background: white;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#teachers_achievement > a#cerrar_teachers_achievement{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 14px;
+  font-size: 35px;
+  text-decoration: none;
+  color: yellowgreen;
+  transition: all 0.1s;
+}#teachers_achievement > a#cerrar_teachers_achievement:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#teachers_achievement > select, #teachers_achievement p{
+  position: absolute;
+  font-size: 18px;
+  margin-top: 45px;
+  font-family: NotoSans;
+  margin-left: 14%;
+  width: auto;
+  transition: all 0.1s;
+}
+
+#teachers_achievement p{
+  font-size: 13px;
+  transform: translate(0px, -30px);
+  color: #666666;
+  transition: all 0.1s;
+}
+
+#teachers_achievement > div#Teacher_option{
+  position: absolute;
+  width: 90%;
+  height: 260px;
+  margin-left: 5%;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: #dddddd;
+  overflow: auto;
+}
+
+/*items ------------------------------------------------------------------ items*/
+.item{
+  position: relative;
+  float: left;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 30%;
+  height: 120px;
+  background: black;
+  transition: all 0.1s;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.item > hr{
+  position: absolute;
+  margin-top: 75px;
+  width: 80%;
+  margin-left: 10%;
+  border-width: 1px;
+  border-color: red;
+}
+
+.item > span{
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: NotoSans;
+  font-size: 60px;
+}
+
+.item > span#Capacidad{
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+a#item_grades_student:hover .item{
+  background: #222222;
+}
+
+/*Curso ------------------------------------------------------------------ Curso*/
+#courses{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+  margin-top: 50px;
+  background: white;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#courses > a#cerrar_courses{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 14px;
+  font-size: 35px;
+  text-decoration: none;
+  color: yellowgreen;
+  transition: all 0.1s;
+}#courses > a#cerrar_courses:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#courses > select, #courses p{
+  position: absolute;
+  font-size: 18px;
+  margin-top: 45px;
+  font-family: NotoSans;
+  margin-left: 14%;
+  width: auto;
+  transition: all 0.1s;
+}
+
+#courses p{
+  font-size: 13px;
+  transform: translate(0px, -30px);
+  color: #666666;
+  transition: all 0.1s;
+}
+
+#courses > div#Grades_option{
+  position: absolute;
+  width: 90%;
+  height: 260px;
+  margin-left: 5%;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: #dddddd;
+  overflow: auto;
+}
+
+/*items ------------------------------------------------------------------ items*/
+.item{
+  position: relative;
+  float: left;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 30%;
+  height: 120px;
+  background: black;
+  transition: all 0.1s;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.item > hr{
+  position: absolute;
+  margin-top: 75px;
+  width: 80%;
+  margin-left: 10%;
+  border-width: 1px;
+  border-color: red;
+}
+
+.item > span{
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: NotoSans;
+  font-size: 60px;
+}
+
+.item > span#Capacidad{
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+a#item_grades_student:hover .item{
+  background: #222222;
+}
+
+/*Curso ------------------------------------------------------------------ Curso*/
+#porcentajes{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+  margin-top: 50px;
+  background: white;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#porcentajes > a#cerrar_porcentajes{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 14px;
+  font-size: 35px;
+  text-decoration: none;
+  color: yellowgreen;
+  transition: all 0.1s;
+}#porcentajes > a#cerrar_porcentajes:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}

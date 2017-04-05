@@ -1,0 +1,44 @@
+Encuesta:{
+    Presentacion:{
+        "Somos un equipo y futura empresa, nos hacemos llamar NEXO y estamos 
+        desarrollando para la comunidad educativa una plataforma integral, 
+        eficiente, amigable con el usuario, capaz de cumplir con los 
+        requerimientos exigidos por el beneficiario.
+        Una plataforma escalable, que evolucione o se adapte a las necesidades que
+        el tiempo le depare.
+        
+        Garantizamos la optimizacion de recursos, garantizamos la seguridad de su
+        informacion, manteniendola siempre disponible, fidedigna y privada"
+    },
+    
+    Que_estamos_esperamos:{
+        "Queremos saber lo que ellos como usuarios esperan de una plataforma
+        institucional, deseamos saber los como's que afronten en cada situacion"
+    },
+    
+    de_que_forma:{
+        "¿Tienes contratada una plataforma?"
+        if(resp==yes){
+            "¿que tal les ha parecido?, ¿quejas o Puntos buenos?"
+            "¿cuanto pagan y de que forma pagan por ella (si es posible saberlo)?"
+            "¿es buena la relacion precio-beneficios?"
+            "¿Estarian dispuestos a un cambio?"
+            return "excelente";
+        }else{
+            ¿porque no han contratado alguna aun?
+            if(precio){
+                "¿Cuanto les han cobrado?"
+                "¿cuanto estarian dispuestos a pagar po una?"
+            }else if(complejidad de las contratadas anteriormente){
+                "¿que se hace complicado?"
+            }else if(no lo han considerado){
+                ::comprar con palabras:{
+                    "nuestra plataforma es lo que necesitan porque automatiza
+                    procesos y agiliza flujo de datos en la organizacion"
+                }
+            }
+        }
+        //Tenga o no.
+        "¿Que esperan de una plataforma?"
+    }
+}

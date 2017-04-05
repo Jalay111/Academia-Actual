@@ -1,0 +1,234 @@
+/*header ---------------------------------------------------------------- header*/
+header{
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background: #bbbbbb;
+  -webkit-box-shadow: 0px 3px 0px 0px #333333;
+  -moz-box-shadow: 0px 3px 0px 0px #333333;
+  box-shadow: 0px 3px 0px 0px #333333;
+}
+
+/*logo -------------------------------------------------------------------- logo*/
+header > img{
+  position: absolute;
+  margin-left: 7%;
+  margin-top: 10px;
+  height: 70px;
+}
+
+/*Logout ---------------------------------------------------------------- Logout*/
+header > #logout{
+  border-radius: 50%;
+  background: white;
+  padding: 9px 10px 6px 10px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 90%;
+  font-size: 25px;
+  text-decoration: none;
+  color: #333333;
+  transition: all 300ms;
+}
+
+header > #logout:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.2);
+}
+
+/*logoutOption ---------------------------------------------------- logoutOption*/
+#logoutOption{
+  position: absolute;
+  display: block;
+  width: 30%;
+  margin-left: 35%;
+  height: 220px;
+  margin-top: 180px;
+  background: white;
+  border-radius: 8px;
+  -webkit-box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+  -moz-box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+  box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+}
+
+#logoutOption > span{
+  position: inherit;
+  font-family: NotoSans;
+  font-size: 20px;
+  margin-left: 7%;
+  margin-top: 30px;
+}
+
+#logoutOption > #change, #logoutOption > #exit{
+  position: absolute;
+  font-family: NotoSans;
+  font-size: 26px;
+  width: 100%;
+  height: 50px;
+  margin-top: 80px;
+  padding-top: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+}
+
+#logoutOption > #exit{
+  margin-top: 142px;
+}
+
+#logoutOption > #change:hover, #logoutOption > #exit:hover{
+  background: #007cff;
+  color: white;
+}
+
+#logoutOption > #cerrar{
+  position: absolute;
+  font-size: 35px;
+  text-decoration: none;
+  color: #333333;
+  margin-top: 12px;
+  margin-left: 88%;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+#logoutOption > #cerrar:hover{
+  color: red;
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+/*Setting -------------------------------------------------------------- Setting*/
+header > #setting{
+  border-radius: 50%;
+  background: white;
+  padding: 10px 10px 6px 11px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 85%;
+  font-size: 25px;
+  text-decoration: none;
+  color: #333333;
+  transition: all 300ms;
+}
+
+header > #setting:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.2);
+}
+
+/*settingPanel ---------------------------------------------------- settingPanel*/
+#settingPanel{
+  position: absolute;
+  width: 90%;
+  margin-left: 5%;
+  height: 640px;
+  margin-top: 30px;
+  background: white;
+  border-radius: 6px;
+  overflow-y: auto;
+  -webkit-box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+  -moz-box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+  box-shadow: -10px 10px 18px -8px rgba(0,0,0,1);
+}
+
+#settingPanel > #encabezado{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: #2680e5;
+}
+
+#settingPanel > img#perfil{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 70%;
+  width: 20%;
+  -webkit-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.7);
+  box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.7);
+}
+
+#settingPanel > p{
+  position: relative;
+  display: block;
+  font-size: 23px;
+  font-family: NotoSans;
+  height: 60px;
+  margin-left: 6%;
+  margin-top: 25px;
+}
+
+#settingPanel > hr{
+  width: 50%;
+  border-color: transparent;
+  border-bottom-color: #dddddd;
+  margin-left: 5%;
+}
+
+#settingPanel > #Nombre{
+  margin-top: 140px;
+}
+
+#settingPanel > p > sup{
+  font-size: 18px;
+  color: #2680e5;
+  text-shadow: 0px 0px 10px 10px black;
+}
+
+#settingPanel #setting_icon{
+  color: #999999;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#settingPanel > p > a > i{
+  transition: all 0.1s;
+}
+
+#settingPanel > p > a > i:hover{
+  color: #2680e5;
+  font-size: 28px;
+}
+
+#settingPanel > #encabezado > #Title{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 25px;
+  font-size: 35px;
+  color: white;
+  font-family: NotoSans;
+}
+
+#settingPanel > #encabezado > #cerrar{
+  position: absolute;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  margin-top: 22px;
+  margin-left: 95%;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+#settingPanel > #encabezado > #cerrar:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}

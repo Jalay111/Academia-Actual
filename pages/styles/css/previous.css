@@ -1,0 +1,278 @@
+@font-face{
+    font-family: NotoSans;
+    src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-size: 100%;
+    background-image: url("../../images/School-Material-1500.png");
+    background-color: #cccccc;
+    padding-bottom: 40px;
+}
+
+/*Oculto ---------------------------------------------------------------- Oculto*/
+.oculto{
+  visibility: hidden;
+}
+
+#admin, #attendent, #teaching, #student{
+    padding-bottom: 10px;
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 25%;
+    padding-top: 10px;
+    background: #3899ec;
+    border-radius: 15px;
+    -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+div table{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border-width: 5px;
+    border-collapse: collapse;
+    font-family: NotoSans;
+    text-align: center;
+}
+
+caption{
+    height: 40px;
+    color: white;
+}
+
+th{
+    border-bottom: 2px solid #e8e8e8;
+    height: 40px;
+    color: white;
+}
+
+th#carga{
+    border-bottom: 2px solid transparent;
+}
+
+td{
+    border-bottom: 1px solid rgba(232, 232, 232, 0.86);
+    height: 40px;
+    color: white;
+}
+
+td#carga_td{
+    border-bottom: 1px solid transparent;
+}
+
+button{
+    background: #e8e8e8;
+    width: 100%;
+    height: 40px;
+    padding: 2px 5%;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    font-family: NotoSans;
+    font-size: 15px;
+    transition: all 300ms;
+    cursor:pointer; cursor: hand;
+}
+
+button:hover{
+    background: #3a3a3a;
+    color: white;
+}
+
+#logout{
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(51, 51, 51, 0.36);
+    padding: 9.5px 10px 6px 11px;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 90%;
+    text-decoration: none;
+    transition: all 0.2s;
+    -webkit-box-shadow: -5px 5px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 22px -6px rgba(0,0,0,0.75);
+}
+
+#logout:hover{
+    background: #666666;
+    webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+    transform: scale(1.2);
+}
+
+/*Animacion------------------------------------------------------------Animation*/
+#preloader{
+    position: relative;
+    width: 0px;
+    margin-left: 47.5%;
+    margin-top: 20px;
+}
+
+#preloader:before{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    background: none;
+    animation: preloader_before 1.5s infinite ease-in-out;
+}
+ 
+#preloader:after{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    background: none;
+    left: 22px;
+    animation: preloader_after 1.5s infinite ease-in-out;
+}
+ 
+@keyframes preloader_before {
+    0% {transform: translateX(0px) rotate(0deg)}
+    50% {transform: translateX(50px) scale(1.2) rotate(260deg); background: #333333; border-radius: 0px;}
+    100% {transform: translateX(0px) rotate(0deg)}
+}
+@keyframes preloader_after {
+    0% {transform: translateX(0px)}
+    50% {transform: translateX(-50px) scale(1.2) rotate(-260deg); background: #333333; border-radius: 0px;}
+    100% {transform: translateX(0px)}
+}
+
+/*------------------------------------------------------------------------------*/
+td#carga_td{
+    width: 30px;
+}
+
+#spinner {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 100%;  
+    visibility: hidden;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+/*Loader two -------------------------------------------------------------------*/
+/*div#container_loaderAdd_black{*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background: rgba(255, 255, 255, 0.4);*/
+/*  margin-top: 0%px;*/
+/*}*/
+
+/*#loader {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  margin-top: -2.7em;*/
+/*  margin-left: -2.7em;*/
+/*  width: 5.4em;*/
+/*  height: 5.4em;*/
+/*}*/
+
+/*#hill {*/
+/*  position: absolute;*/
+/*  width: 7.1em;*/
+/*  height: 7.1em;*/
+/*  top: 1.7em;*/
+/*  left: 1.7em;*/
+/*  background-color: transparent;*/
+/*  border-left: .25em solid #333333;*/
+/*  transform: rotate(45deg);*/
+/*}*/
+
+/*#hill:after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  width: 7.1em;*/
+/*  height: 7.1em;*/
+/*  left: 0;*/
+/*}*/
+
+/*#box {*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  bottom: -.1em;*/
+/*  width: 1em;*/
+/*  height: 1em;*/
+/*  background-color: transparent;*/
+/*  border: .25em solid #333333;*/
+/*  border-radius: 15%;*/
+/*  transform: translate(0, -1em) rotate(-45deg);*/
+/*  animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;*/
+/*}*/
+
+/*@keyframes push {*/
+/*  0% {*/
+/*    transform: translate(0, -1em) rotate(-45deg);*/
+/*  }*/
+/*  5% {*/
+/*    transform: translate(0, -1em) rotate(-50deg);*/
+/*  }*/
+/*  20% {*/
+/*    transform: translate(1em, -2em) rotate(47deg);*/
+/*  }*/
+/*  25% {*/
+/*    transform: translate(1em, -2em) rotate(45deg);*/
+/*  }*/
+/*  30% {*/
+/*    transform: translate(1em, -2em) rotate(40deg);*/
+/*  }*/
+/*  45% {*/
+/*    transform: translate(2em, -3em) rotate(137deg);*/
+/*  }*/
+/*  50% {*/
+/*    transform: translate(2em, -3em) rotate(135deg);*/
+/*  }*/
+/*  55% {*/
+/*    transform: translate(2em, -3em) rotate(130deg);*/
+/*  }*/
+/*  70% {*/
+/*    transform: translate(3em, -4em) rotate(217deg);*/
+/*  }*/
+/*  75% {*/
+/*    transform: translate(3em, -4em) rotate(220deg);*/
+/*  }*/
+/*  100% {*/
+/*    transform: translate(0, -1em) rotate(-225deg);*/
+/*  }*/
+/*}*/

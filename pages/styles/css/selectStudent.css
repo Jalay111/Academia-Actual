@@ -1,0 +1,332 @@
+#add_student{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  margin-top: 25px;
+  background: white;
+  overflow-y: auto;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#add_student > #encabezado_add_student{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: purple;
+}
+
+#add_student > #encabezado_add_student > #Title_student{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5%;
+  color: white;
+  font-family: NotoSans;
+  font-size: 30px;
+}
+
+#add_student input, #add_student p{
+  position: absolute;
+  width: 35%;
+  margin-left: 8%;
+  font-size: 18px;
+  font-family: NotoSans;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #bbbbbb;
+  border-bottom-width: 1px;
+  background: none;
+  transition: all 0.1s;
+}#add_student > input:hover{
+  border-bottom-color: black;
+}#add_student input:focus, #add_student select:focus{
+  border-bottom-width: 2px;
+  border-bottom-color: #FF5D00;
+  box-shadow: none;
+  outline: none;
+}
+
+#add_student #DNI{
+  margin-top: 120px;
+}
+
+#add_student a#cargarDatos, #add_student a#cargarAcudiente{
+  position: absolute;
+  margin-top: 117px;
+  font-size: 25px;
+  margin-left: 44%;
+  color: purple;
+  text-decoration: none;
+  transition: all 0.1s;
+}#add_student a#cargarDatos:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#add_student #Nombre_I{
+  margin-top: 220px;
+}
+
+#add_student #Nombre_II{
+  margin-top: 220px;
+  margin-left: 47%;
+}
+
+#add_student #Apellido_I{
+  margin-top: 320px;
+}
+
+#add_student #Apellido_II{
+  margin-top: 320px;
+  margin-left: 47%;
+}
+
+#add_student #Correo{
+  margin-top: 420px;
+}
+
+#add_student #Direccion{
+  margin-top: 520px;
+}
+
+#add_student #Nacimiento{
+  margin-top: 620px;
+}
+
+#add_student #Telefono{
+  margin-top: 720px;
+}
+
+#add_student #DNI_acudiente{
+  margin-top: 820px;
+}
+
+#add_student a#cargarAcudiente{
+  margin-top: 817px;
+}
+
+#add_student #Curso{
+  margin-top: 1020px;
+  margin-bottom: 60px;
+}
+
+#add_student > select, #add_student p{
+  position: absolute;
+  font-size: 18px;
+  font-family: NotoSans;
+  margin-top: 920px;
+  margin-left: 8%;
+  width: auto;
+  transition: all 0.1s;
+}
+
+#add_student > select#Departamentos, #add_student p#Departamentos{
+  margin-top: 518px;
+  margin-left: 50%;
+  width: 15%;
+}
+
+#add_student > select#Ciudades, #add_student p#Ciudades{
+  margin-top: 518px;
+  margin-left: 70%;
+  width: 15%;
+}
+
+#add_student p{
+  font-size: 13px;
+  transform: translate(0px, -30px);
+  color: #666666;
+  transition: all 0.1s;
+}#add_student > input:hover + p{
+  color: #111111;
+}#add_student > input:focus + p{
+  color: #dddddd;
+}
+
+#add_student #see_course{
+  position: absolute;
+  margin-top: 1020px;
+  margin-left: 44%;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  transition: all 0.1s;
+}#add_student #see_course:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#add_student > #save{
+  background: purple;
+  padding: 4px 9px 0px 9px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 980px;
+  margin-left: 75%;
+  text-decoration: none;
+  font-size: 70px;
+  color: white;
+  transition: all 0.1s;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+}#add_student > #save:hover{
+  background: #dddddd;
+  color: green;
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0);
+}
+
+#add_student > #encabezado_add_student > a#cerrar_add_student{
+  background: purple;
+  border-radius: 50%;
+  padding: 5.5px 5.5px 0px 6.5px;
+  position: fixed;
+  font-size: 40px;
+  margin-left: 66.5%;
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s;
+  z-index: 1;
+}#add_student > #encabezado_add_student > #cerrar_add_student:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+  background: none;
+  color: #aaaaaa;
+}
+
+/*Curso ------------------------------------------------------------------ Curso*/
+div#black_add_one{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  margin-top: 25px;
+  background: rgba(0,0,0,0.4);
+}
+
+#courseStudent{
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+  margin-top: 50px;
+  background: white;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.75);
+}
+
+#courseStudent > a#cerrar_courseStudent{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 14px;
+  font-size: 35px;
+  text-decoration: none;
+  color: purple;
+  transition: all 0.1s;
+}#courseStudent > a#cerrar_courseStudent:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.3);
+}
+
+#courseStudent > select, #courseStudent p{
+  position: absolute;
+  font-size: 18px;
+  margin-top: 45px;
+  font-family: NotoSans;
+  margin-left: 14%;
+  width: auto;
+  transition: all 0.1s;
+}
+
+#courseStudent p{
+  font-size: 13px;
+  transform: translate(0px, -30px);
+  color: #666666;
+  transition: all 0.1s;
+}
+
+#courseStudent > div#Grades_student{
+  position: absolute;
+  width: 90%;
+  height: 260px;
+  margin-left: 5%;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: #dddddd;
+  overflow: auto;
+}
+
+/*items ------------------------------------------------------------------ items*/
+.item{
+  position: relative;
+  float: left;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 30%;
+  height: 120px;
+  background: black;
+  transition: all 0.1s;
+  -webkit-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+  box-shadow: -9px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.item > hr{
+  position: absolute;
+  margin-top: 75px;
+  width: 80%;
+  margin-left: 10%;
+  border-width: 1px;
+  border-color: red;
+}
+
+.item > span{
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: NotoSans;
+  font-size: 60px;
+}
+
+.item > span#Capacidad{
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+a#item_grades_student:hover .item{
+  background: #222222;
+}

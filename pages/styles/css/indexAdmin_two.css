@@ -1,0 +1,103 @@
+@font-face{
+  font-family: NotoSans;
+  src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: PoiretOne;
+  src: url(../fonts/PoiretOne-Regular.ttf) format('truetype');
+}
+
+div#see_two{
+  position: absolute;
+  margin-left: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+/*container_prueba_estado ------------------------------ container_prueba_estado*/
+div#container_prueba_estado, div#container_poblacion_estudiantil, div#container_calificacion{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 7%;
+  width: 8%;
+  height: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 18px -8px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 10px 18px -8px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 18px -8px rgba(0,0,0,0.4);
+}
+
+div#canvas_pobEst{
+  width: 300%;
+}
+
+div#container_prueba_estado{
+  margin-left: 17%;
+  /*background: rgba(130, 226, 119, 0.5);*/
+}
+
+div#container_calificacion{
+  margin-left: 27%;
+  /*background: rgba(230, 96, 9, 0.5);*/
+}
+
+/*container_comments ---------------------------------------- container_comments*/
+div#container_comments{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 72%;
+  width: 25%;
+  height: 400px;
+  border-style: solid;
+  border-color: transparent transparent #999999 #999999;
+  border-width: 1px;
+  -webkit-box-shadow: -10px 10px 18px -8px rgba(0,0,0,0.2);
+  -moz-box-shadow: -10px 10px 18px -8px rgba(0,0,0,0.2);
+  box-shadow: -10px 10px 18px -8px rgba(0,0,0,0.2);
+}
+
+div#container_comments > div#usuario{
+  margin-left: 5%;
+  width: 90%;
+  background: green;
+}
+
+div#container_comments > div#usuario > div#img{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  align-content: center;
+  border-radius: 50%;
+}
+
+div#container_comments > div#usuario > div#img > img{
+  max-width: 100%;
+  height: auto;
+}
+
+div#container_comments > div#usuario > span#Name{
+  float: leftd;
+  margin-left: 65px;
+}
+
+/*Before ---------------------------------------------------------------- Before*/
+a#before {
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 1%;
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.1s;
+}
+
+a#before:hover{
+  webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+  transform: scale(1.5);
+}

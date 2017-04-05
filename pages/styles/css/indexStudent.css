@@ -1,0 +1,44 @@
+@font-face{
+  font-family: NotoSans;
+  src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: PoiretOne;
+  src: url(../fonts/PoiretOne-Regular.ttf) format('truetype');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div#black{
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background: rgba(0,0,0,0.2);
+}
+
+/*Oculto ---------------------------------------------------------------- Oculto*/
+.oculto{
+  visibility: hidden;
+}
+
+/*Contenido ---------------------------------------------------------- Contenido*/
+div#saludo{
+  position: absolute;
+  width: 100%;
+  margin-top: 300px;
+  text-align: center;
+}
+
+div#saludo span{
+  text-align: center;
+  font-size: 40px;
+  font-family: PoiretOne;
+}
+
+div#saludo span span#dis{
+  font-size: 80px;
+}

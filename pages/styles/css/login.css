@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: NotoSans;
+    src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+}
+
+div#form{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 100px;
+    width: 40%;
+    height: 450px;
+    background: none;
+}
+
+img{
+    position: absolute;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 7.5%;
+}
+
+/*input ------------------------------------------------------------------ input*/
+.input{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 240px;
+    width: 80%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid #9e9e9e;
+    outline: none;    
+    background: none;
+    font-size: 20px;
+    font-family: NotoSans;
+    transition: all 0.1s;
+}
+
+.input#password{
+    margin-top: 320px;
+}
+
+.input#login{
+    margin-top: 340px;
+    margin-left: 30%;
+    width: 40%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+input:hover{
+    border-bottom-color: black;
+}
+
+input:focus{
+    animation: right 0.3s forwards;
+}
+
+@keyframes right{
+    to{}
+    100%{border-bottom-width: 3px; border-bottom-color: #00ddff;}
+}
+/*--------------------------------------*/
+i{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 255px;
+    font-family: NotoSans;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,0);
+    animation: exist 0.5s forwards 0.5s, up 0.5s forwards 0.5s;
+}
+
+i#passwordtext{
+    margin-top: 335px;
+}
+
+@keyframes exist{
+    0%{color: rgba(0,0,0,0);}
+    50%{color: rgba(0,0,0,0.7);}
+    100%{color: #333333;}
+}
+
+@keyframes up{
+    0%{font-size: 20px;}
+    100%{font-size: 11px; transform: translate(0px, -30px);}
+}
+/*span -------------------------------------------------------------------- span*/
+span#result{
+    position: absolute;
+    font-family: NotoSans;
+    font-size: 15px;
+    color: rgb(199, 0, 0);
+    margin-top: 380px;
+    margin-left: 10%;
+}
+
+#login{
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 410px;
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    transition: all 500ms;
+    font-family: NotoSans;
+    font-size: 20px;
+    cursor:pointer; cursor: hand;
+}
+
+#login:hover{
+    background: #3a3a3a;
+    color: white;
+}
